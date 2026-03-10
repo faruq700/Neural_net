@@ -22,7 +22,7 @@ test_dataset = datasets.CIFAR10(
 
 train_loader = DataLoader(train_dataset, batch_size=32)
 
-plt.figure(figsize=(10, 10))
+plt.figure(figsize=(10,10))
 for i in range(10):
     image, label = train_dataset[i]
     plt.subplot(5, 5, i+1)
